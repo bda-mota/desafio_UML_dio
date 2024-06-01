@@ -12,3 +12,35 @@ Métodos: exibirPagina(String url), adicionarNovaAba(), atualizarPagina()
 ## Diagrama UML
 
 ![UML](https://github.com/bda-mota/desafio_UML_dio/raw/main/uml_dio.png)
+
+```mermaid
+classDiagram
+    class iPhone {
+        - modelo: String
+        + ReprodutorMusical()
+        + AparelhoTelefonico()
+        + NavegadorInternet()
+    }
+
+    class ReprodutorMusical {
+        + tocar(): void
+        + pausar(): void
+        + selecionarMusica(musica: String): void
+    }
+
+    class AparelhoTelefonico {
+        + ligar(numero: String): void
+        + atender(): void
+        + iniciarCorreioVoz(): void
+    }
+
+    class NavegadorInternet {
+        + exibirPagina(url: String): void
+        + adicionarNovaAba(): void
+        + atualizarPagina(): void
+    }
+
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
+``` 
