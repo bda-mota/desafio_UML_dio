@@ -8,3 +8,7 @@ Aparelho Telefônico
 Métodos: ligar(String numero), atender(), iniciarCorreioVoz()
 Navegador na Internet
 Métodos: exibirPagina(String url), adicionarNovaAba(), atualizarPagina()
+
+## Diagrama UML
+
+![UML](https://github.com/bda-mota/desafio_UML_dio/raw/main/uml_dio.png)
